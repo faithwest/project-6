@@ -1,18 +1,20 @@
 body {
     background-color:#d8afe5;
     font-family: sans-serif;
-    font-size: 3em;
+    font-size: 2em;
+    margin: 0;
      }
 hr{
       border-style: none;
       border-top-style: dotted;
       border-color: grey ;
       border-width: 5px ;
+      margin: 0;
       width: 5%;
      }
    h1  {
-    color: #66BFBF;
-   }
+    color: #66BFBF;}
    h3 {
     color: #66BFBF;
    }
+   
