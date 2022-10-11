@@ -23,6 +23,7 @@ h2 {
 
 h3 {font-family: "Montserrat", sans-serif;
   color: #11999E;
+  text-align: left;
 }
 
 a {
@@ -38,14 +39,32 @@ a {
 
    
 .middle-border {
-
+    margin: auto;
 }
+
 
 .bottom-border {
- 
+  margin:  auto;
 }
 
-.pro { 
+
+.skill-row {
+   width: 50%;
+   margin: 100px auto 100px auto;
+   text-align: left;
+   line-height: 2;
+}
+
+.code-img {
+  width: 25%;
+  float:left;
+  margin-right: 30px;
+}
+
+.languages-img {
+  width: 25%;
+}
+ .pro { 
   text-decoration: underline;
 }
 
