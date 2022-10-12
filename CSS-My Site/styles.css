@@ -64,6 +64,16 @@ a {
 .languages-img {
   width: 25%;
 }
+
+.code-skill-description {
+  clear: left;
+}
+
+.language-skill-description {
+ clear: left;
+}
+
+
  .pro { 
   text-decoration: underline;
 }
