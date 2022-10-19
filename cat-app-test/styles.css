@@ -47,3 +47,21 @@ li {
 element.style {
     overscroll-behavior-y: none;
 }
+
+* {
+    font-family: Open Sans,sans-serif;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+html {
+    -webkit-locale: "en";
+}
+
+html {
+    display: block;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
