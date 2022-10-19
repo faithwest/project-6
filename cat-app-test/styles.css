@@ -1,3 +1,12 @@
+html {
+    filter: none;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+style {
+    display: none;
+}
 body {
     background-color: rgb(43, 41, 61);
     text-align: center;
@@ -14,6 +23,7 @@ h1    {
 a  {
     font-family: 'Courier New', Courier, monospace;
     font-size: 3%;
+    cursor: pointer;
 }
  p      {
     font-family: 'Courier New', Courier, monospace;
@@ -24,4 +34,16 @@ li {
     font-family: 'Courier New', Courier, monospace;
     font-size: medium;
     background-attachment:fixed;
+}
+
+
+.n3VNCb {
+    vertical-align: middle;
+}
+
+.n3VNCb {
+    width: 100%;
+}
+element.style {
+    overscroll-behavior-y: none;
 }
