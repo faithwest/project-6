@@ -65,3 +65,9 @@ html {
 *, :after, :before {
     box-sizing: border-box;
 }
+input   { 
+    border: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    text-align: center;
+}
