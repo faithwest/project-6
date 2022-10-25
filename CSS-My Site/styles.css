@@ -1,5 +1,5 @@
 body{
-  color: 40514E ;
+  color: #40514E ;
   margin: 0;
   text-align: center;
   font-family: Geneva, Tahoma, sans-serif;
@@ -41,7 +41,7 @@ a {
 
    
 .middle-border {
-    margin: auto;
+    margin: 100 0;
 }
 
 
@@ -66,6 +66,10 @@ hr {
   height: 2px;
   background-color: brown;
   border-color: brown;
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
 }
 .code-img {
   width: 25%;
@@ -80,6 +84,15 @@ hr {
  .pro { 
   text-decoration: underline;
 }
+
+.intro{
+  width: 30%;
+}
+
+.contact-message  {
+  width: 40%;
+  }
+
 
 .top-cloud {
   position:relative;
@@ -110,3 +123,5 @@ End-gradient {
 footer {
   font-size: 14px;
 }
+
+
