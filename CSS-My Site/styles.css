@@ -1,4 +1,5 @@
 body{
+  color: #40514E ;
   margin: 0;
   text-align: center;
   font-family: Geneva, Tahoma, sans-serif;
@@ -19,6 +20,7 @@ h2 {
   font-size: 2.5rem;
   color: #66BFBF;
   font-weight: normal;
+  padding-bottom: 10px;
 }
 
 h3 {font-family: "Montserrat", sans-serif;
@@ -39,7 +41,7 @@ a {
 
    
 .middle-border {
-    margin: auto;
+    margin: 100 0;
 }
 
 
@@ -54,7 +56,21 @@ a {
    text-align: left;
    line-height: 2;
 }
-
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: -25px;
+}
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
 .code-img {
   width: 25%;
   float:left;
@@ -68,6 +84,15 @@ a {
  .pro { 
   text-decoration: underline;
 }
+
+.intro{
+  width: 30%;
+}
+
+.contact-message  {
+  width: 40%;
+  }
+
 
 .top-cloud {
   position:relative;
@@ -95,3 +120,8 @@ Hover-end{
 End-gradient {
   color: #11999e;
 }
+footer {
+  font-size: 14px;
+}
+
+
