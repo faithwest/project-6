@@ -2,10 +2,15 @@ body{
   margin:0px;
   text-align: center;
 }
+h1, h2, p {
+  text-align: center;
+}
 
 h1{
   margin: 0 ;
+  text-align: center;
 }
+
 
 .border-top {
     background-color: #160c4b;
@@ -43,9 +48,6 @@ h1{
   bottom: 300px;
 }
 
-h1 {
-  text-align: center;
-}
 
 .container {
   background-color: rgb(255, 255, 255);
@@ -82,4 +84,8 @@ h1 {
 .green {
   background: linear-gradient(#55680D, #71F53E, #116C31);
   box-shadow: 0 0 20px 0 #3B7E20CC;
+}
+
+.established {
+  font-style: italic;
 }
