@@ -91,6 +91,35 @@ p:hover, a:hover {
     
    }
 
+/* class selector */
+
+      .div2 { 
+
+      color: orange; 
+
+      text-align: left; 
+
+      font-size: 10px; 
+
+      font-weight: bold; 
+
+      } 
+
+      /* attribute selector */
+
+      div[style] { 
+
+      text-align: center; 
+
+      color: purple; 
+
+      font-size: 20px; 
+
+      font-weight: bold; 
+
+      margin-bottom: -20px; 
+
+      } 
 .middle-border {
   background-color: #36af9b;
   height: 200px;
