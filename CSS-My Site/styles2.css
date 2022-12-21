@@ -9,7 +9,19 @@ h1, h2, p {
 h1{
   margin: 0 ;
   text-align: center;
-}
+   text-decoration: underline wavy;  
+    text-decoration-color: cyan;
+  
+}  
+h2 {  
+text-decoration: underline;  
+    text-decoration-color: #DF5689;  
+}  
+h3 {  
+text-decoration: line-through;  
+    text-decoration-color: rgb(105,42,49);  
+font-size:30px;  
+}  
 
 p:hover, a:hover {
   background-color: yellow;
