@@ -151,6 +151,37 @@ Hover-end{
  color: #11cdd4;
   
 }
+ /* universal selector */
+
+      * { 
+
+      background-color: hsl(325, 63%, 82%); 
+
+      text-align: center; 
+
+      } 
+
+      /* type selector */
+
+      span { 
+
+      background-color: skyblue; 
+
+      } 
+
+      /* id selector */
+
+      #div1 { 
+
+      color: green; 
+
+      text-align: center; 
+
+      font-size: 20px; 
+
+      font-weight: bold; 
+
+      } 
 
 End-gradient {
   color: #11999e;
