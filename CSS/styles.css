@@ -147,3 +147,28 @@ hr{
       text-align: center; 
 
       } 
+ /* class selector */
+
+      .box { 
+
+      background-color: yellow; 
+
+      width: 300px; 
+
+      height: 100px; 
+
+      margin: auto; 
+
+      font-size: 30px; 
+
+      text-align: center; 
+
+      } 
+
+      /* pseudo selector */
+
+      .box:hover { 
+
+      background-color: orange; 
+
+      } 
