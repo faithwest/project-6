@@ -172,3 +172,20 @@ hr{
       background-color: orange; 
 
       } 
+.style3 { 
+
+      font-family: "arial"; 
+
+      font-weight: 10px; 
+
+      font-size: 20px; 
+
+      color: black; 
+
+      text-align: right; 
+
+      font-style: oblique; 
+
+      font-variant: small-caps; 
+
+      }
