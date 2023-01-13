@@ -189,3 +189,30 @@ hr{
       font-variant: small-caps; 
 
       }
+.main { 
+
+        font-size: 20px; 
+
+        font-weight: bold; 
+
+        Text-align: left; 
+
+    } 
+
+      
+
+    .gfg { 
+
+        margin-left: 60px; 
+
+        border: 50px solid #009900; 
+
+        width: 300px; 
+
+        height: 200px; 
+
+        text-align: center; 
+
+        padding: 50px; 
+
+    } 
