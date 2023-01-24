@@ -18,3 +18,22 @@ hr{
     color: #66BFBF;
    }
    
+      } 
+
+      /* class selector */
+
+      .box { 
+
+      background-color: yellow; 
+
+      width: 300px; 
+
+      height: 100px; 
+
+      margin: auto; 
+
+      font-size: 30px; 
+
+      text-align: center; 
+
+      } 
