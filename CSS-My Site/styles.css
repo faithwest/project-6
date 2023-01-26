@@ -229,3 +229,20 @@ footer {
       font-variant: normal; 
 
       } 
+/* class selector */
+
+      .box { 
+
+      background-color: yellow; 
+
+      width: 300px; 
+
+      height: 100px; 
+
+      margin: auto; 
+
+      font-size: 30px; 
+
+      text-align: center; 
+
+      }
