@@ -246,3 +246,21 @@ footer {
       text-align: center; 
 
       }
+
+#gfg1 { 
+
+            border: 2px solid blue; 
+
+            width: 60%; 
+
+        } 
+
+  
+
+        #gfg2 { 
+
+            border: thick dashed green; 
+
+            width: 60%; 
+
+        } 
