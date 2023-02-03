@@ -264,3 +264,8 @@ gfg1 {
       text-align: center; 
 
       } 
+.clearfix::after {
+ content: "";
+ clear: both;
+ display: block; 
+}
