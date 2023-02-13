@@ -264,3 +264,24 @@ footer {
             width: 60%; 
 
         } 
+ .a { 
+
+      background-image: 
+
+      url( 
+
+      "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190417124305/250.png"); 
+
+      } 
+
+      .b { 
+
+      background-image: 
+
+      url( 
+
+      "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190417124305/250.png"); 
+
+      background-repeat: no-repeat; 
+
+      }
