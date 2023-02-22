@@ -285,6 +285,17 @@ footer {
       background-repeat: no-repeat; 
 
       }
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  background: red;
+  color: white;
+}
 .pos { 
 
             position: relative; 
