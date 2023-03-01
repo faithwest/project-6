@@ -285,3 +285,10 @@ gfg1 {
  clear: both;
  display: block; 
 }
+
+/* Global values */
+position: inherit;
+position: initial;
+position: revert;
+position: revert-layer;
+position: unset;
