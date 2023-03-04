@@ -280,6 +280,21 @@ gfg1 {
       text-align: center; 
 
       } 
+.geeks { 
+
+            position: absolute; 
+
+            left: 50px; 
+
+            width: calc(100% - 20%); 
+
+            height: calc(100px - 20px); 
+
+            background-color: green; 
+
+            text-align: center; 
+
+        } 
 .clearfix::after {
  content: "";
  clear: both;
