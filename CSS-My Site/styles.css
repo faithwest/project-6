@@ -33,6 +33,31 @@ font-size:30px;
 text-decoration-style: dotted;  
 
 }
+.grid-container {
+
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  grid-gap: 10px;
+
+  border: 1px solid black;
+
+}
+
+.grid-item {
+
+  background-color: #ddd;
+
+  padding: 20px;
+
+  text-align: center;
+
+  font-size: 30px;
+
+}
+
+
 .clearfix::after {
 
  content: "";
