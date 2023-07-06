@@ -17,4 +17,46 @@ hr{
    h3 {
     color: #66BFBF;
    }
-   
+   css
+.card-container {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+      /* class selector */
+
+      .box { 
+
+      background-color: yellow; 
+
+      width: 300px; 
+
+      height: 100px; 
+
+      margin: auto; 
+
+      font-size: 30px; 
+
+      text-align: center; 
+
+      } 
+ .style3 { 
+
+      font-family: "arial"; 
+
+      font-weight: 10px; 
+
+      font-size: 20px; 
+
+      color: black; 
+
+      text-align: right; 
+
+      font-style: oblique; 
+
+      font-variant: small-caps; 
+
+      } 
+
