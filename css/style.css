@@ -186,6 +186,7 @@ body {
     width: 80px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .section{
