@@ -34,13 +34,14 @@ a {
 
 ul{
     list-style: none;
+    margin: 20px;
 }
 
 image{
    justify-content: center;
    position: relative;
    display: flex;
-   align-items: right;
+   align-items: centre;
    
 }
 
@@ -50,13 +51,13 @@ image{
     max-width: 92rem;
     padding: 0 4rem;
     margin: 0 auto;
-    background-color: #f8f3f8fa;
+    background-color: #c7bdc7fa;
 }
 
 
 .grid-2 {
 display: grid;
-grid-template-columns: 1fr 1fr;
+grid-template-columns: repeat(3, 1fr);
 align-items: center;
 justify-content: center;
 }
@@ -73,6 +74,13 @@ justify-content: center;
 
 .column-2 {
     margin-right: 1.5rem;
+}
+
+.column-2.image {
+    justify-content: space-between;
+    position: relative;
+    display: grid;
+    max-width: 100%;
 }
 
 .z-index {
@@ -117,6 +125,7 @@ header .square {
     line-height: 1;
     font-size: 2.8rem;
     margin-bottom: 0.6rem;
+    
 }
 
 .title::before {
@@ -145,6 +154,40 @@ header .square {
 .section-header{
     max-width: 600px;
     margin: 0 auto;
+}
+
+.title-sm {
+    color: var(--dark-one);
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.btn-small {
+    display: inline-block;
+    padding: 0.85rem 0.6rem;
+    background-color: var(--main-color);
+    color: var(--light-one);
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.85rem 1rem;
+    color: var(--light-one);
+    background-color: var(--dark-one) ;
+    border-radius: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.3s;
+    width: 200;
+    padding: 15px;
+    margin: 20px 5px;
+    cursor: pointer;
 }
 /* End General Styles */
 
@@ -179,11 +222,22 @@ body {
     height: 6rem;
     justify-content: space-between;
 }
+ .nav ul li a {
+    color: white;
+    padding: 15px;
+ }
 
-       
+ li a:hover {
+    background: white;
+    transition: 0.5s;
+ }      
+
+ .nav a:hover {
+    color: black;
+ }
 
 .logo {
-    width: 80px;
+    width: 160px;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -203,7 +257,7 @@ body {
 .links a {
     display: inline-block;
     padding: 0.8rem 1.2rem;
-    color: var(--dark-one);
+    color: white;
     font-size: 1.05rem;
     text-transform: uppercase;
     font-weight: 500;
@@ -221,11 +275,11 @@ body {
     margin-left: 1rem;
 }
 
-links a:hover {
+.links a:hover {
     color: var(--main-color);
 }
 
-links a.active:hover {
+.links a.active:hover {
 color: var(--light-one);
 background-color: #6b44e0;
 }
@@ -238,7 +292,7 @@ text-align: center;
 }
 
 .header-title {
-  font-size: 3.8rem;
+  font-size: 2rem;
   line-height: 0.8rem;
   color:  var(--dark-one); 
 }
@@ -247,20 +301,15 @@ text-align: center;
     margin: 2.15rem 0;
 }
 
-.btn {
-    display: inline-block;
-    padding: 0.85rem 1rem;
-    background-color: var(--main-color);
-    color: var(--light-one);
-    border-radius: 1rem;
-    font-size: 1rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    transition: 0.3s;
-}
+
 
 .btn:hover {
-    background-color: #6b44e0;
+    background-color: var(--main-color);
+    transition: 0.5s;
+}
+
+.btn:hover{
+    color: white;       
 }
 
 .header-content .image .img-element {
@@ -293,9 +342,6 @@ header .points {
   }
 
 
-
-
-
 /*  services*/
 .cards {
     display: flex;
@@ -303,28 +349,74 @@ header .points {
     flex-wrap: wrap;
     width: 100%;
 }
+
+.card-wrap {
+    margin: 1.7rem 0.8rem;
+    
+}
+
 .card {
+    position: relative;
+    width: 100%;
     max-width: 390px;
     min-height: 520px;
     background-color: var(--light-three);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem 2rem;
+    overflow: hidden;
+    transition: 0.3s;
 }
+
+.card:before{
+    content: attr(data-card);
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    font-size: 6rem;
+    font-weight: 800;
+    line-height: 1;
+    color: var(--main-color);
+    opacity: 0.025;
+}
+
+.card:after{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--main-color);
+    transition: 0.3s;
+
+}
+
+.card-wrap:hover .card {
+    transform: translateY(-15px);
+}
+
+.card-wrap:hover .card:after {
+    height: 8px;
+}
+
 
 .icon {
     width: 90px;
+    margin: 1.7rem;
 
 }
 
-.btn-small {
-        display: inline-block;
-        padding: 0.85rem 0.6rem;
-        background-color: var(--main-color);
-        color: var(--light-one);
-        border-radius: 0.5rem;
-        font-size: 1rem;
-        font-weight: 400;
-        text-transform: uppercase;
-        transition: 0.3s;
-    }
+.card .title-sm {
+    line-height: 0.8rem;
+}
+
+.card .text {
+    font-size: 1.1rem;
+    margin: 1.8rem 0;
+}
 
 
 
@@ -338,42 +430,8 @@ header .points {
 
 
 
-/* Style the video: 100% width and height to cover the entire window
- iremoce css code for video */
-#myVideo {
-    position: fill;
-    right: 0;
-    bottom: 0;
-    min-width: 50%;
-    min-height: 50%;
-  }
-  
-  /* Add some content at the bottom of the video/page */
-  .content {
-    position: fixed;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px;
-  }
-  
-  /* Style the button used to pause/play the video */
-  #myBtn {
-    width: 200px;
-    font-size: 18px;
-    padding: 10px;
-    border: none;
-    background: #000;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  #myBtn:hover {
-    background: #ddd;
-    color: rgb(161, 114, 114);
-  }
-/* Style the button used to pause/play the video */
+
+
 
 
 
